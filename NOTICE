@@ -1,0 +1,38 @@
+This product includes software developed at BinForge (https://binforge.example.com/).
+
+The following open source software is included in this product:
+
+1. Cloudflare Workers
+   - License: Apache License 2.0
+   - Source: https://github.com/cloudflare/workers-sdk
+
+2. D1 Database
+   - License: MIT License
+   - Source: https://github.com/cloudflare/d1-database
+
+3. R2 Storage
+   - License: Apache License 2.0
+   - Source: https://github.com/cloudflare/r2-storage
+
+4. KV Storage
+   - License: Apache License 2.0
+   - Source: https://github.com/cloudflare/kv-storage
+
+5. TypeScript Compiler
+   - License: Apache License 2.0
+   - Source: https://github.com/microsoft/TypeScript
+
+6. Node.js
+   - License: MIT License
+   - Source: https://github.com/nodejs/node
+
+This product also includes third-party software components licensed under the following terms:
+
+- MIT License: A permissive free software license originating at the Massachusetts Institute of Technology (MIT).
+- Apache License 2.0: A permissive free software license written by the Apache Software Foundation (ASF).
+
+For a full list of licenses and attributions, please refer to the LICENSE file included with this distribution.
+
+BinForge is a trademark of BinForge, Inc. All other trademarks are the property of their respective owners.
+
+This NOTICE file is provided for informational purposes only and is not intended to modify the licenses under which the open source software is distributed.
