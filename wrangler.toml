@@ -1,0 +1,32 @@
+name = "binforge"
+main = "src/index.js"
+compatibility_date = "2025-07-01"
+workers_dev = true
+
+[[kv_namespaces]]
+binding = "CACHE_INDEX"
+id = "7c4a8f2e9b6d4e1c9f3a5b7d2e8c1a6f"
+
+[[d1_databases]]
+binding = "METADATA_DB"
+database_name = "binforge-metadata"
+database_id = "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+
+[[r2_buckets]]
+binding = "ARTIFACT_STORE"
+bucket_name = "binforge-artifacts"
+
+[[queues.producers]]
+binding = "BUILD_QUEUE"
+queue = "binforge-build-jobs"
+
+[[queues.consumers]]
+queue = "binforge-build-jobs"
+max_batch_size = 10
+max_wait_time_ms = 5000
+
+[[ai]]
+binding = "AI"
+
+[triggers]
+crons = ["0 2 * * *"]
